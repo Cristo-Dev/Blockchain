@@ -1,0 +1,97 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "GetDuration",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "tiempo",
+						"type": "uint256"
+					}
+				],
+				"name": "SetTiempoJuego",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "restablecer",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "tiemporestante",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Fácil/Cuantaatras/CuentaAtras.sol": "CuentaAtras"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Fácil/Cuantaatras/CuentaAtras.sol": {
+			"keccak256": "0x6be25a5e934e6f9f895d3569c0b13b9db89ca9d9e5c80c9360325c8e5cc91a84",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://f1d919352d8e9dfb8c1f0ca758ca8f6c0aa35bca2ac401387d21d256b7304aae",
+				"dweb:/ipfs/QmUfkUF28yPpFZ4xo78q1vD6PpBqqgKP7fnTmSKYajQxYH"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,0 +1,106 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "borrar",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "consultar",
+				"outputs": [
+					{
+						"components": [
+							{
+								"internalType": "uint256",
+								"name": "edad",
+								"type": "uint256"
+							},
+							{
+								"internalType": "string",
+								"name": "nombre",
+								"type": "string"
+							},
+							{
+								"internalType": "string",
+								"name": "genero",
+								"type": "string"
+							}
+						],
+						"internalType": "struct AdministrarUsuarios.Usuario",
+						"name": "",
+						"type": "tuple"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "edad",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "nombre",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "genero",
+						"type": "string"
+					}
+				],
+				"name": "registrar",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Fácil/UsuariosBasicos/AdministrarUsuarios.sol": "AdministrarUsuarios"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Fácil/UsuariosBasicos/AdministrarUsuarios.sol": {
+			"keccak256": "0x6ef5e78906e384a0aa22dd74b5118d3c0e97951841c924a87ccb6cd1f9b92e7c",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://7cd44100d1269469f451d44080b641e50662d86e6db694176b2918fbbc16483c",
+				"dweb:/ipfs/QmWfeK64v1jLbtexYaDJdvfKQEWr4eEznTYEcqWDoo8RJg"
+			]
+		}
+	},
+	"version": 1
+}

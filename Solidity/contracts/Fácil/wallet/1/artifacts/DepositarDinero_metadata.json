@@ -1,0 +1,106 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "bytes10",
+						"name": "moneda",
+						"type": "bytes10"
+					}
+				],
+				"name": "ConsultarSaldo",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "cantidad",
+						"type": "uint256"
+					},
+					{
+						"internalType": "bytes10",
+						"name": "moneda",
+						"type": "bytes10"
+					}
+				],
+				"name": "Depositar",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "cantidad",
+						"type": "uint256"
+					},
+					{
+						"internalType": "bytes10",
+						"name": "moneda",
+						"type": "bytes10"
+					},
+					{
+						"internalType": "address payable",
+						"name": "wallet",
+						"type": "address"
+					}
+				],
+				"name": "RetirarSaldo",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Fácil/wallet/Depositar.sol": "DepositarDinero"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Fácil/wallet/Depositar.sol": {
+			"keccak256": "0xa773052ae8806c08b2a3e25d8ed2b3df3e055b439f7e1ddfeae815a3a3e49581",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://579ea7f7d39877833e62693b7f6f224d21c5ff19f663a5404d91d489d15b6580",
+				"dweb:/ipfs/QmaEmp5PHq7behmsFiHL7n8bW6Pvp1GGvUxo8dqSLAkhru"
+			]
+		}
+	},
+	"version": 1
+}

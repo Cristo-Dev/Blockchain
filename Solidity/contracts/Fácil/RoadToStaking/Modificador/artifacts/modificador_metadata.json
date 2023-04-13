@@ -1,0 +1,64 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_edad",
+						"type": "uint256"
+					}
+				],
+				"name": "GetNumber",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Fácil/RoadToStaking/Modificador/modificador.sol": "modificador"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Fácil/RoadToStaking/Modificador/modificador.sol": {
+			"keccak256": "0x59eda10b0119ad8cf3777d7607775666ea50c5906ce066a20024a4d2ca10955e",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://66a5d2c5744a44bd38944ee4681945cac89530be309b92edace9be2afa232cd9",
+				"dweb:/ipfs/QmPHk1o7q5XJeghufe638sFxgiFUWpLiQJh6ckw7mPsmyX"
+			]
+		}
+	},
+	"version": 1
+}

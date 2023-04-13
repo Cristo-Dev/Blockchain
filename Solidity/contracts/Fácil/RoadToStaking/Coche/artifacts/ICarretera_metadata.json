@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "GetRutaA",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Fácil/RoadToStaking/interfaces.sol": "ICarretera"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Fácil/RoadToStaking/interfaces.sol": {
+			"keccak256": "0x66401404c26b2bd4b79c2076c8c23e684559ee84d67d57269a109822cd667531",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://93894c6c7f530c26d9af3745292026006fb4bbde6287ed2bcccfcb05599451cd",
+				"dweb:/ipfs/QmdQ6UTnu29hBEWjyBoqoZ4xGwJAiMabUZEn2Xb6mHVrZX"
+			]
+		}
+	},
+	"version": 1
+}

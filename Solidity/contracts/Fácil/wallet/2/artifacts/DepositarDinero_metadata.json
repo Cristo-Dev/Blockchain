@@ -1,0 +1,191 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": true,
+						"internalType": "address",
+						"name": "user",
+						"type": "address"
+					},
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "cantidad",
+						"type": "uint256"
+					}
+				],
+				"name": "Depositado",
+				"type": "event"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": true,
+						"internalType": "address",
+						"name": "user",
+						"type": "address"
+					},
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "cantidad",
+						"type": "uint256"
+					}
+				],
+				"name": "Retirado",
+				"type": "event"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "bytes10",
+						"name": "moneda",
+						"type": "bytes10"
+					},
+					{
+						"internalType": "uint256",
+						"name": "TiempoBloqueo",
+						"type": "uint256"
+					},
+					{
+						"internalType": "bool",
+						"name": "reiniciar",
+						"type": "bool"
+					}
+				],
+				"name": "ActualizarBloqeuo",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "bytes10",
+						"name": "moneda",
+						"type": "bytes10"
+					}
+				],
+				"name": "ConsultarSaldo",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "cantidad",
+						"type": "uint256"
+					},
+					{
+						"internalType": "bytes10",
+						"name": "moneda",
+						"type": "bytes10"
+					},
+					{
+						"internalType": "uint256",
+						"name": "TiempodeBloqueo",
+						"type": "uint256"
+					}
+				],
+				"name": "Depositar",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "cantidad",
+						"type": "uint256"
+					},
+					{
+						"internalType": "bytes10",
+						"name": "moneda",
+						"type": "bytes10"
+					},
+					{
+						"internalType": "address payable",
+						"name": "wallet",
+						"type": "address"
+					}
+				],
+				"name": "RetirarSaldo",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "bytes10",
+						"name": "moneda",
+						"type": "bytes10"
+					}
+				],
+				"name": "TiempoRst",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Fácil/wallet/2/Depositar2.sol": "DepositarDinero"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Fácil/wallet/2/Depositar2.sol": {
+			"keccak256": "0xaebbf7b69cbe014b706bb683b5e9686a1702f95b7927ef264d9211d4625d6bc3",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://a37921fad8d010f0bea6841670c3312dc6e939c26a2dd62ba0468aca45451bd8",
+				"dweb:/ipfs/QmWNtUp8nUbRSW2swHWtZUgiVNpJqwPPkZuoLSXLuTf38j"
+			]
+		}
+	},
+	"version": 1
+}
